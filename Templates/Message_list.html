@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -18,7 +18,8 @@
          <script src="https://use.fontawesome.com/e1a974c4b3.js"></script>
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine" />
         <style>
-        h1 {  font-family: Tangerine; font-size: 49px; font-style: italic; font-variant: normal; font-weight: 700; line-height:  186.2px;  }
+        h1 {  font-family: Tangerine; font-size: 49px;
+        font-style: italic; font-variant: normal; font-weight: 700; line-height:  186.2px;  }
           h3 { font-family: Tangerine; font-size: 14px; font-style: normal;
            font-variant: normal; font-weight: 700; line-height: 15.4px; }
            p { font-family: Tangerine; font-size: 14px; font-style: normal; font-variant: normal;
@@ -28,7 +29,7 @@
 
         body {
 
-  background-image: url('https://tse2.mm.bing.net/th?id=OIP.9MeQ_H8YEptyfBt_x8Z53QHaEK&pid=Api&P=0&w=312&h=176');
+  background-image: url('http://trickvilla.com/wp-content/uploads/Wooden-Background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -43,17 +44,37 @@
 .zoom:hover {
   transform: scale(1.5);
 }
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+  }
+
 </style>
 
 </head>
 <body >
-        <header>   <h2><b><a href="{% url 'messageform' %}" class="btn btn-primary pull-right"
-                             style = "font-family:'georgia',garamond,serif;font-size:20px;font-style:italic;">
-            <i class="fa fa-plus" aria-hidden="true"></i>ADD NEW </a></b></h2></header>
+        <header>   <h1><b><a href="{% url 'messageform' %}" class="btn btn-primary pull-right"
+                             style = "font-family:'georgia',garamond,serif;font-size:30px;font-style:italic;">
+            <i class="fa fa-plus" aria-hidden="true"></i>ADD NEW </a></b></h1></header>
         <br>
-        <br>
-        <br>
-       <center> <h1 class="display-4"   style = "font-family:'georgia',garamond,serif;font-weight: 700;font-size:50px;font-style:italic;">
+       <center> <h1 class="glow"
+                    style = "font-family:'georgia',garamond,serif;
+                    font-weight: 700;font-size:60px;font-style:italic;">
             YOUR GREETINGS
         </h1></center>
 
@@ -66,17 +87,21 @@
           <div class="card shadow-lg p-3 mb-5 bg-white rounded " style="width:20rem" >
             <div class="card-header"
                  style="background-image:
-                 url(http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg)">
-              <h2 class="card-title"
-                  style = "font-family:georgia,garamond,serif;font-size:30px;font-style:italic;font-weight:400;" >
+                 url(https://venturecaferotterdam.org/wp-content/uploads/2017/10/gradient-black-background-wallpaper-1.jpg)">
+             <center><h2 class="card-title"
+                  style = "font-family:georgia,garamond,serif;font-size:30px;font-style:italic;font-weight:500;" >
                   {{ message.Name}}
               </h2>
+             </center>
+
             </div>
             <div class="card-body">
               <h2 class="card-text" style=
-                "font-family:georgia,garamond,serif;font-size:35px;font-style:italic ;color:black";>
+                "font-family:georgia,garamond,serif;font-size:35px;font-style:italic ;color:black;
+              font-weight:500">
                 {{message.Message}}
                 </h2>
+
                <div class="zoom" >
                    <a href="{% url 'User_update' message.id %}" class="btn btn-success"
                                       id="card-btn"><i class="fa fa-pencil" aria-hidden="true"></i>EDIT</a>
@@ -85,6 +110,7 @@
                      <a href="{% url 'User_delete' message.id %}" class="btn btn-danger">
                          <i class="fa fa-trash-o" aria-hidden="true"></i>DELETE</a>
                  </div>
+
             </div>
           </div>
           </div>
