@@ -1,0 +1,219 @@
+INFO 2020-12-21 12:04:20,591 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 12:04:31,962 basehttp "GET /greetings/list/ HTTP/1.1" 200 10645
+WARNING 2020-12-21 12:04:32,444 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:04:32,445 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:04:32,534 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:04:32,534 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:04:39,512 basehttp "GET /greetings/ HTTP/1.1" 200 2954
+INFO 2020-12-21 12:04:52,392 views New message is added to  database.
+INFO 2020-12-21 12:04:52,492 views data for user id 0 is updated in greeting databse 
+INFO 2020-12-21 12:04:52,494 basehttp "POST /greetings/ HTTP/1.1" 302 0
+INFO 2020-12-21 12:04:52,538 basehttp "GET /greetings/list HTTP/1.1" 301 0
+INFO 2020-12-21 12:04:52,909 basehttp "GET /greetings/list/ HTTP/1.1" 200 11903
+WARNING 2020-12-21 12:04:52,989 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:04:52,989 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:04:53,286 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:04:53,287 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:05:00,462 basehttp "GET /greetings/90/ HTTP/1.1" 200 2988
+INFO 2020-12-21 12:05:07,413 views data for user id 90 is updated in greeting databse 
+INFO 2020-12-21 12:05:07,414 basehttp "POST /greetings/90/ HTTP/1.1" 302 0
+INFO 2020-12-21 12:05:07,424 basehttp "GET /greetings/list HTTP/1.1" 301 0
+INFO 2020-12-21 12:05:07,833 basehttp "GET /greetings/list/ HTTP/1.1" 200 11905
+WARNING 2020-12-21 12:05:07,904 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:05:07,905 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:05:08,142 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:05:08,143 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:05:14,953 views user86 is deleted from greeting database.
+INFO 2020-12-21 12:05:14,954 basehttp "GET /greetings/delete/86/ HTTP/1.1" 302 0
+INFO 2020-12-21 12:05:15,460 basehttp "GET /greetings/list/ HTTP/1.1" 200 10628
+WARNING 2020-12-21 12:05:15,531 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:05:15,531 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:05:15,764 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:05:15,764 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:08:21,069 basehttp "GET /greetings/list/ HTTP/1.1" 200 10772
+WARNING 2020-12-21 12:08:21,133 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:08:21,135 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:08:21,884 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:08:21,884 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:09:00,889 basehttp "GET /greetings/list/ HTTP/1.1" 200 10772
+WARNING 2020-12-21 12:09:00,946 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:09:00,947 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:09:01,532 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:09:01,532 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:09:36,439 basehttp "GET /greetings/list/ HTTP/1.1" 200 10874
+WARNING 2020-12-21 12:09:36,509 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:09:36,509 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:09:37,075 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:09:37,075 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:15:02,865 basehttp "GET /greetings/list/ HTTP/1.1" 200 10970
+WARNING 2020-12-21 12:15:03,400 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:15:03,401 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:15:04,070 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:15:04,070 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:16:07,179 basehttp "GET /greetings/list/ HTTP/1.1" 200 10976
+WARNING 2020-12-21 12:16:07,248 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:16:07,249 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:16:07,758 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:16:07,759 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:16:49,112 basehttp "GET /greetings/list/ HTTP/1.1" 200 10976
+WARNING 2020-12-21 12:16:49,216 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:16:49,216 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:16:49,731 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:16:49,731 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:17:00,496 basehttp "GET /greetings/list/ HTTP/1.1" 200 10982
+WARNING 2020-12-21 12:17:00,597 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:17:00,598 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:17:01,200 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:17:01,200 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:17:14,356 basehttp "GET /greetings/list/ HTTP/1.1" 200 10874
+WARNING 2020-12-21 12:17:14,451 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:17:14,451 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:17:15,135 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:17:15,136 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:18:12,699 basehttp "GET /greetings/list/ HTTP/1.1" 200 10976
+WARNING 2020-12-21 12:18:12,772 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:18:12,773 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:18:13,597 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:18:13,597 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:25:54,102 basehttp "GET /greetings/list/ HTTP/1.1" 200 11550
+WARNING 2020-12-21 12:25:54,170 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:25:54,171 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:25:54,820 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:25:54,821 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:26:45,081 basehttp "GET /greetings/list/ HTTP/1.1" 200 11540
+WARNING 2020-12-21 12:26:45,160 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:26:45,161 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:26:45,722 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:26:45,722 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:30:30,227 basehttp "GET /greetings/list/ HTTP/1.1" 200 11557
+WARNING 2020-12-21 12:30:30,522 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:30:30,522 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:30:30,782 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:30:30,783 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:34:27,569 basehttp "GET /greetings/ HTTP/1.1" 200 2954
+INFO 2020-12-21 12:34:46,007 basehttp "GET /greetings/list/ HTTP/1.1" 200 11557
+WARNING 2020-12-21 12:34:46,132 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:34:46,133 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:34:46,378 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:34:46,380 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:35:02,472 views user84 is deleted from greeting database.
+INFO 2020-12-21 12:35:02,473 basehttp "GET /greetings/delete/84/ HTTP/1.1" 302 0
+INFO 2020-12-21 12:35:02,943 basehttp "GET /greetings/list/ HTTP/1.1" 200 10225
+WARNING 2020-12-21 12:35:03,027 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:35:03,029 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:35:03,350 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:35:03,351 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:37:26,946 basehttp "GET /greetings/list/ HTTP/1.1" 200 10171
+WARNING 2020-12-21 12:37:27,077 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:37:27,078 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:37:27,657 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:37:27,657 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:38:12,958 basehttp "GET /greetings/list/ HTTP/1.1" 200 10116
+WARNING 2020-12-21 12:38:13,051 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:38:13,052 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:38:13,582 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:38:13,583 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:38:40,160 basehttp "GET /greetings/list/ HTTP/1.1" 200 10225
+WARNING 2020-12-21 12:38:40,289 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:38:40,290 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:38:40,859 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:38:40,860 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:39:45,148 basehttp "GET /greetings/list/ HTTP/1.1" 200 10227
+WARNING 2020-12-21 12:39:45,267 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:39:45,268 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:39:45,831 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:39:45,832 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:41:20,983 basehttp "GET /greetings/list/ HTTP/1.1" 200 10227
+WARNING 2020-12-21 12:41:21,097 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:41:21,097 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:41:21,691 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:41:21,691 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:41:34,811 views user87 is deleted from greeting database.
+INFO 2020-12-21 12:41:34,812 basehttp "GET /greetings/delete/87/ HTTP/1.1" 302 0
+INFO 2020-12-21 12:41:35,341 basehttp "GET /greetings/list/ HTTP/1.1" 200 8910
+WARNING 2020-12-21 12:41:35,516 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:41:35,516 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:41:35,799 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:41:35,799 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:41:37,733 views user90 is deleted from greeting database.
+INFO 2020-12-21 12:41:37,734 basehttp "GET /greetings/delete/90/ HTTP/1.1" 302 0
+INFO 2020-12-21 12:41:38,248 basehttp "GET /greetings/list/ HTTP/1.1" 200 7593
+WARNING 2020-12-21 12:41:38,359 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:41:38,360 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:41:38,646 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:41:38,646 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:41:43,614 basehttp "GET /greetings/ HTTP/1.1" 200 2954
+INFO 2020-12-21 12:42:08,831 views New message is added to  database.
+INFO 2020-12-21 12:42:09,096 views data for user id 0 is updated in greeting databse 
+INFO 2020-12-21 12:42:09,098 basehttp "POST /greetings/ HTTP/1.1" 302 0
+INFO 2020-12-21 12:42:09,117 basehttp "GET /greetings/list HTTP/1.1" 301 0
+INFO 2020-12-21 12:42:09,441 basehttp "GET /greetings/list/ HTTP/1.1" 200 8921
+WARNING 2020-12-21 12:42:09,537 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:42:09,538 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:42:09,697 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:42:09,698 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:42:36,841 basehttp "GET /greetings/list/ HTTP/1.1" 200 8921
+WARNING 2020-12-21 12:42:37,014 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:42:37,015 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:42:37,314 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:42:37,315 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:42:53,180 basehttp "GET /greetings/ HTTP/1.1" 200 2954
+INFO 2020-12-21 12:43:10,510 basehttp "GET /greetings/list/ HTTP/1.1" 200 8921
+WARNING 2020-12-21 12:43:10,598 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:43:10,599 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:43:11,171 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:43:11,171 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:45:14,973 basehttp "GET /greetings/list/ HTTP/1.1" 200 8921
+WARNING 2020-12-21 12:45:15,250 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:45:15,251 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:45:15,817 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:45:15,818 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:45:19,431 basehttp "GET /greetings/ HTTP/1.1" 200 3522
+INFO 2020-12-21 12:45:37,814 basehttp "GET /greetings/ HTTP/1.1" 200 3527
+INFO 2020-12-21 12:45:41,849 basehttp "GET /greetings/ HTTP/1.1" 200 3527
+INFO 2020-12-21 12:46:55,406 basehttp "GET /greetings/ HTTP/1.1" 200 3507
+INFO 2020-12-21 12:47:50,593 basehttp "GET /greetings/ HTTP/1.1" 200 3548
+INFO 2020-12-21 12:48:11,795 basehttp "GET /greetings/ HTTP/1.1" 200 3543
+INFO 2020-12-21 12:49:32,883 basehttp "GET /greetings/ HTTP/1.1" 200 3548
+INFO 2020-12-21 12:49:57,594 views New message is added to  database.
+INFO 2020-12-21 12:49:57,683 views data for user id 0 is updated in greeting databse 
+INFO 2020-12-21 12:49:57,684 basehttp "POST /greetings/ HTTP/1.1" 302 0
+INFO 2020-12-21 12:49:57,723 basehttp "GET /greetings/list HTTP/1.1" 301 0
+INFO 2020-12-21 12:49:58,153 basehttp "GET /greetings/list/ HTTP/1.1" 200 10259
+WARNING 2020-12-21 12:49:58,247 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:49:58,248 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:49:58,504 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:49:58,504 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:50:16,753 views user91 is deleted from greeting database.
+INFO 2020-12-21 12:50:16,754 basehttp "GET /greetings/delete/91/ HTTP/1.1" 302 0
+INFO 2020-12-21 12:50:17,203 basehttp "GET /greetings/list/ HTTP/1.1" 200 8931
+WARNING 2020-12-21 12:50:17,292 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:50:17,293 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:50:17,499 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:50:17,500 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:52:10,685 basehttp "GET /greetings/list/ HTTP/1.1" 200 9051
+WARNING 2020-12-21 12:52:10,799 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:52:10,819 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:52:11,296 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:52:11,297 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:56:05,303 basehttp "GET /greetings/ HTTP/1.1" 200 3548
+INFO 2020-12-21 12:57:27,650 basehttp "GET /greetings/ HTTP/1.1" 200 3548
+INFO 2020-12-21 12:57:49,969 basehttp "GET /greetings/ HTTP/1.1" 200 3548
+INFO 2020-12-21 12:58:17,399 basehttp "GET /greetings/ HTTP/1.1" 200 3566
+INFO 2020-12-21 12:58:20,765 basehttp "GET /greetings/list/ HTTP/1.1" 200 9051
+WARNING 2020-12-21 12:58:20,914 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:58:20,914 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:58:21,121 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:58:21,122 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:59:43,169 basehttp "GET /greetings/list/ HTTP/1.1" 200 9059
+WARNING 2020-12-21 12:59:43,351 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:59:43,351 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 12:59:44,231 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 12:59:44,232 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+INFO 2020-12-21 12:59:45,382 basehttp "GET /greetings/ HTTP/1.1" 200 3710
+INFO 2020-12-21 13:00:33,051 basehttp "GET /greetings/ HTTP/1.1" 200 3708
+INFO 2020-12-21 13:00:37,358 basehttp "GET /greetings/list/ HTTP/1.1" 200 9057
+WARNING 2020-12-21 13:00:37,477 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 13:00:37,478 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
+WARNING 2020-12-21 13:00:37,773 log Not Found: /greetings/list/Greetings.css
+WARNING 2020-12-21 13:00:37,774 basehttp "GET /greetings/list/Greetings.css HTTP/1.1" 404 3715
