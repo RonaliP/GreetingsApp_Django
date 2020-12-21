@@ -17,16 +17,17 @@
         <script src="https://use.fontawesome.com/e1a974c4b3.js"></script>
         {% load crispy_forms_tags %}
     <style>
-        body {
+           body {
 
-  background-image: url('https://tse2.mm.bing.net/th?id=OIP.9MeQ_H8YEptyfBt_x8Z53QHaEK&pid=Api&P=0&w=312&h=176');
+  background-image: url('http://trickvilla.com/wp-content/uploads/Wooden-Background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #FFFFFF;
 
   }
-.zoom {
+
+  .zoom {
   transition: transform .2s; /* Animation */
 
 }
@@ -34,18 +35,44 @@
 .zoom:hover {
   transform: scale(1.5);
 }
+    .glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+ h1 {  font-family: Tangerine; font-size: 49px;
+        font-style: italic; font-variant: normal; font-weight: 700; line-height:  186.2px;  }
+
+
 </style>
     </head>
 
     <body>
+
     <header> <a href="{% url 'messagelist' %}" class="btn btn-primary pull-right"
-                style = "font-family:georgia,garamond,serif;font-size:20px;font-style:italic;">
+                style = "font-family:georgia,garamond,serif;font-size:25px;font-style:italic;">
             <i class="fa fa-comment" aria-hidden="true"></i> GREETINGS HERE</a></header>
 
     <br>
     <br>
+    <br>
+    <br>
         <center>
-            <h1 class="display-4" style = "font-family:georgia,garamond,serif;font-size:50px;font-style:italic;">
+            <h1 class="glow" style = "font-family:georgia,garamond,serif;
+            font-size:50px;font-style:italic;font-weight:700">
             WELCOME TO GREETINGS APP
             </h1>
         </center>
@@ -54,12 +81,12 @@
          <br>
          <br>
          <br>
-
+         <br>
 
 
         <form method="POST" autocomplete="off">
          {% csrf_token %}
-         {{ form|crispy }}
+         {{ form | crispy }}
           <br>
           <br>
                 <center>  <div class="zoom" > <button type="submit" class="btn btn-success"
